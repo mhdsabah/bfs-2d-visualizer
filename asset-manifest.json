@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bfs-2d-visualizer/static/css/main.c953a484.css",
+    "main.js": "/bfs-2d-visualizer/static/js/main.e7ca61ae.js",
+    "index.html": "/bfs-2d-visualizer/index.html",
+    "main.c953a484.css.map": "/bfs-2d-visualizer/static/css/main.c953a484.css.map",
+    "main.e7ca61ae.js.map": "/bfs-2d-visualizer/static/js/main.e7ca61ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c953a484.css",
+    "static/js/main.e7ca61ae.js"
+  ]
+}
