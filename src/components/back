@@ -1,0 +1,33 @@
+    function bfs(){
+        let x1 = startActive.xval
+        let y1 = startActive.yval
+        let x2 = endActive.xend
+        let y2 = endActive.yend
+
+        let arr = [...arrayData]
+        var stack = []
+        stack.push([[x1,y1],[x1,y1]])
+        while (stack.length != 0){
+            let temp = stack.pop()
+            
+            
+
+            if (temp[0][1] == x2 && temp[0][1] == y2) break;
+
+            if (temp[0][0]<tableData.Trow && temp[0][0]>=0 && temp[0][1]<tableData.Tcol && temp[0][1]>=0 && arr[temp[0][0]][temp[0][1]] != -1  ){
+                
+                console.log(temp[1][0],temp[1][1])
+                stack.push([[temp[0][0]+1,temp[0][1]],[temp[0][0],temp[0][1]]])
+                stack.push([[temp[0][0]-1,temp[0][1]],[temp[0][0],temp[0][1]]])
+                stack.push([[temp[0][0],temp[0][1]+1],[temp[0][0],temp[0][1]]])
+                stack.push([[temp[0][0],temp[0][1]-1],[temp[0][0],temp[0][1]]])
+                arr[temp[0][0]][temp[0][1]] = -1
+                setArraydata(arr)
+            }
+
+
+        }
+
+
+
+    }

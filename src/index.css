@@ -1,13 +1,83 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Poppins;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-left: 0px;
+
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: Poppins;
 }
+
+.wrapper{
+  
+  /* position: relative; */
+  /* background: turquoise; */
+  height: 300px;
+  width: 75%;
+  padding-left: 12%;
+  padding: auto;
+  padding-top: 25px;
+  margin-top: 20px;
+
+
+}
+.a {
+  /* position: absolute; */
+
+  
+
+  /* background: black; */
+  padding: 2px;
+  width: 100%;
+  height: 13%;
+  margin-right: auto;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  margin-top: -25px;
+
+  
+  
+}
+.a1 {
+  display: flex;
+  /* flex: 0 0 auto; */
+  flex-wrap: nowrap;
+  /* background: blueviolet; */
+  /* border: 1px solid blueviolet; */
+  width: 30%;
+  height: 30%;
+  margin-left: 1px;
+  margin-right: 1px;
+  border-radius: 2px;
+  transition: transform .9s ease-in-out;
+  
+ 
+  
+}
+.main {
+  width: 100%;
+  padding-top: 0px;
+  /* padding-left: 20px; */
+  /* align-items: center; */
+ 
+  
+}
+
+.nav-bar {
+  background-color: #8CA1A5;
+  width: 100%;
+  margin-top: -20px;
+  padding-left: 5px;
+}
+.inputs-and-buttons{
+  padding-left: 30px;
+}
+.inputs-and-buttons > p {
+  padding-left: -26px;
+}
+
+
